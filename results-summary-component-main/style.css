@@ -1,0 +1,221 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+    
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+
+}
+
+.header {
+    background: linear-gradient(0deg, hsl(241, 80%, 54%) 0%, hsl(252, 100%, 67%));
+    border-radius: 0 0 3rem 3rem;
+    max-width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (min-width: 1440px) {
+    .container {
+        display: grid;
+        grid-template-columns: 40rem 40rem;
+        justify-content: center;
+        align-content: center;
+    }
+    .header {
+        height: 53.4rem;
+        width: 100%;
+        
+    }
+    .main-box {
+        width: 100%;
+        justify-self: stretch;
+        border-radius: 3rem;
+    }
+    .text-header p {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .attribution {
+        margin-top: 2rem;
+    }
+}
+
+
+
+h1 {
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2.5rem;
+    margin: 0;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    background: linear-gradient(0deg, rgba(26,47,200,0.10575980392156865) 0%, rgba(47,41,201,0.8463760504201681) 31%, rgba(78,33,202,1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.circle_number {
+    font-weight: 700;
+    font-size: 5.5rem;
+    margin-top: 4.2rem;
+    margin-bottom: 0.8rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle_text {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: hsl(241, 100%, 89%);
+    margin: 0;
+}
+
+.text-header {
+    text-align: center;
+ 
+}
+
+.text-header h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+}
+
+.text-header p {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-box {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-box h2 {
+    color: hsl(224, 30%, 27%);
+    font-size: 2rem;
+    margin: 3rem 0 3rem 0;
+    font-weight: 700;
+}
+.summary-items {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.items-1 {
+    display: flex;
+    align-items: center; 
+}
+
+.items-1 svg {
+    margin-left: 1.5rem;
+}
+
+.bg-red {
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.bg-red h3 {
+    color: hsl(0, 100%, 67%);
+}
+.bg-yellow {
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+.bg-yellow h3 {
+    color: hsl(39, 100%, 56%);
+}
+.bg-green {
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+.bg-green h3 {
+    color: hsl(166, 100%, 37%);
+}
+.bg-blue {
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.bg-blue {
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+.bg-blue {
+    color: hsl(234, 85%, 45%);
+}
+
+.summary-items h3 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 2.5rem 2.5rem 2.5rem 1.5rem;
+    margin: 0;
+    
+}
+
+.items-2 p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    margin: 0;
+    color: hsl(224, 30%, 27%);
+}
+
+.items-2 p span {
+    font-weight: 700;
+}
+.number {
+    color: hsl(224, 30%, 27%,0.5);
+}
+
+.style-button {
+    text-align: center;
+}
+.button {
+    display: block;
+    background: hsl(224, 30%, 27%);
+    text-decoration: none;
+    border-radius: 25rem;
+    padding: 1.8rem 12.5rem 1.8rem 12.5rem;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(26,47,200) 0%, rgba(47,41,201) 31%, rgba(78,33,202,1) 100%);
+}
+
+.attribution {
+    color: hsl(252, 100%, 67%);
+    margin-bottom: 1rem;
+}
+
+.attribution a {
+    text-decoration: none;
+}
